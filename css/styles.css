@@ -97,7 +97,7 @@ body article.page {
 body article.page.hidden {
   display: none;
 }
-html body article.page.next.content-hidden div.big-image div.inner div.fader div.text a.hidden {
+article.page:nth-child(4) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) {
   opacity: 100;
 }
 .hidden{
